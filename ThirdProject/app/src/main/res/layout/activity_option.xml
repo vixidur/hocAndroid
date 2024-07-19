@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:background="#08364f">
+                <TextView
+                    android:textAlignment="center"
+                    android:text="BAI THI"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    />
+            </TableRow>
+            <TableRow android:gravity="center">
+                <TextView android:text="TU VAN DU HOC" android:textSize="30dp" android:textAlignment="center"/>
+            </TableRow>
+            <TableRow android:gravity="center">
+                <TextView android:textAlignment="center" android:text="NGUYEN VONG TAI CHINH" android:textSize="20dp"/>
+            </TableRow>
+            <TableRow>
+                <RadioButton android:id="@+id/rdTutuc" android:text="Tu tuc" android:textSize="20dp"></RadioButton>
+            </TableRow>
+            <TableRow>
+                <RadioButton android:id="@+id/rdhbhp" android:text="Hoc bong hoc phi" android:textSize="20dp"></RadioButton>
+            </TableRow>
+            <TableRow>
+                <RadioButton android:id="@+id/rdhbsh" android:text="Hoc bong sinh hoat" android:textSize="20dp"></RadioButton>
+            </TableRow>
+            <TableRow>
+                <RadioButton android:id="@+id/rdhbtp" android:text="Hoc bong toan phan" android:textSize="20dp"></RadioButton>
+            </TableRow>
+            <TableRow android:gravity="center">
+                <TextView android:text="HO TRO KHAC" android:textSize="20dp" android:textAlignment="center"/>
+            </TableRow>
+            <TableRow>
+                <CheckBox android:id="@+id/cbccngoaingu" android:text="Chung chi ngoai ngu" android:textSize="20dp"></CheckBox>
+            </TableRow>
+            <TableRow>
+                <CheckBox android:id="@+id/vanhoa" android:text="Trao doi trai nghiem van hoa" android:textSize="20dp"></CheckBox>
+            </TableRow>
+            <TableRow>
+
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="150dp"
+                    android:id="@+id/btnChoose"
+                    android:background="#C72525"
+                    android:text="CHOOSE"></Button>
+
+                <Button
+                    android:layout_marginLeft="-100dp"
+                    android:id="@+id/btnExit"
+                    android:background="#B61F1F"
+                    android:text="EXIT"></Button>
+
+                <Button
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/btnNext"
+                    android:background="#901212"
+                    android:text="NEXT"></Button>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
